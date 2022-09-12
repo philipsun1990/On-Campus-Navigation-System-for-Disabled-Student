@@ -1,2 +1,2 @@
-# On-Campus-Navigation-System-for-Disabled-Student-
+# On-Campus-Navigation-System-for-Disabled-Student
 Personal Project
