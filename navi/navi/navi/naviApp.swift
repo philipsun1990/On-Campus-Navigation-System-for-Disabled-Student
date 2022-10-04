@@ -10,8 +10,8 @@ import SwiftUI
 @main
 struct naviApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        WindowGroup{
+            HomeView()
         }
     }
 }
