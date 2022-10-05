@@ -16,7 +16,7 @@ struct HomeView: View {
                     }
                         SettingView()
                             .tabItem {
-                                Label("Setting", systemImage: "gear")
+                                Label("Account", systemImage: "person")
                             }
                     
             }
