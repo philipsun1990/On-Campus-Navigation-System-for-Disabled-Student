@@ -8,20 +8,30 @@
 import SwiftUI
 
 struct HomeView: View {
+    
     var body: some View {
-            TabView {
-                ContentView()
-                    .tabItem {
-                        Label("Home", systemImage: "house")
-                    }
-                        SettingView()
-                            .tabItem {
-                                Label("Account", systemImage: "person")
-                            }
-                    
+        TabView {
+            ContentView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            SettingView()
+                .tabItem {
+                    Label("Account", systemImage: "person")
+                }
+            
+        }
+        
+        ZStack{
+            Button("+") {
+                print("Sign In")
             }
         }
+        
     }
+    
+}
+
 
 
 struct HomeView_Previews: PreviewProvider {

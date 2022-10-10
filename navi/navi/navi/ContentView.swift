@@ -20,37 +20,8 @@ struct ContentView: View {
             
             ZStack {
                 Map(coordinateRegion: $region, showsUserLocation: true)
-                    //.ignoresSafeArea()
-//                VStack{
-//                    
-//                    
-//                    
-//                    
-//                    
-//                    Spacer()
-//                    
-//                    HStack {
-//                        Spacer()
-//                            .frame(width: 20)
-//                        NavigationLink(destination:
-//                            ListView())
-//                            {
-//                            Text("Main")
-//                            
-//                        }.buttonStyle(.borderedProminent)
-//                        Spacer()
-//                        Button(action:{}) {
-//                            Text("Main")
-//                            
-//                        } .buttonStyle(.borderedProminent)
-//                        //                    Spacer()
-//                    }
-//                    .padding(.horizontal, 32)
-//                    .padding(.vertical, 12)
-//                    .background(Color.white)
-//                }
+
             }
-//            Text("Searching for \(searchText)")
                 .searchable(text: $searchText)
                 .navigationTitle("Search Location")
                 

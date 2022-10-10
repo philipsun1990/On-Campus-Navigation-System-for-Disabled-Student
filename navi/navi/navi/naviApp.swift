@@ -15,3 +15,9 @@ struct naviApp: App {
         }
     }
 }
+
+struct naviApp_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView()
+    }
+}
