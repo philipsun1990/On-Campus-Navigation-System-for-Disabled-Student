@@ -8,16 +8,41 @@
 import SwiftUI
 
 struct SheetView: View {
+    @State private var rampCheck = false
+    @State private var elevatorCheck = false
+    @State private var agCheck = false
+    
     @Environment(\.dismiss) var dismiss
     var body: some View {
-        Button("Press to dismiss") {
-            dismiss()
+        
+        
+        VStack {
+            
+            Toggle("Ramp", isOn: $rampCheck)
+                .toggleStyle(SwitchToggleStyle(tint: .red))
+            Toggle("Elevator", isOn: $elevatorCheck)
+                .toggleStyle(SwitchToggleStyle(tint: .red))
+            Toggle("Accessible Gate", isOn: $agCheck)
+                .toggleStyle(SwitchToggleStyle(tint: .red))
+            if rampCheck {
+                Text("Ramp")
+            }
+            if elevatorCheck {
+                Text("Elevator")
+            }
+            if agCheck {
+                Text("Accessible Gate")
+            }
+            Button("confirm") {
+                dismiss()
+            }
+            .font(.title)
+            .padding(30)
+            
         }
-        .font(.title)
-        .padding()
-        .background(.black)
         
     }
+    
 }
 
 struct SheetView_Previews: PreviewProvider {

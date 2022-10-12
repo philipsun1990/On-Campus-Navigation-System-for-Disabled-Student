@@ -23,8 +23,10 @@ struct MapView: View {
             ZStack {
                 Map(coordinateRegion: $region, showsUserLocation: true)
            
-                    Button("+") {
+                    Button {
                         showingSheet.toggle()
+                    } label: {
+                        Label("",systemImage:"line.3.horizontal.decrease.circle")
                     }
                     .sheet(isPresented: $showingSheet) {
                                 SheetView()
