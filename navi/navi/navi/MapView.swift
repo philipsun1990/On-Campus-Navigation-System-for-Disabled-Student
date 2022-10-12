@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MapView.swift
 //  navi
 //
 //  Created by Jiaji sun on 9/21/22.
@@ -8,18 +8,31 @@
 import MapKit
 import SwiftUI
 
-struct ContentView: View {
+struct MapView: View {
     
-    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 40.0150, longitude: -105.2705),
+     @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 40.0150, longitude: -105.2705),
                                                    span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
     
      @State private var searchText = ""
+     @State private var showingSheet = false
+
     
     var body: some View {
         NavigationView{
             
             ZStack {
                 Map(coordinateRegion: $region, showsUserLocation: true)
+           
+                    Button("+") {
+                        showingSheet.toggle()
+                    }
+                    .sheet(isPresented: $showingSheet) {
+                                SheetView()
+                    }
+                    .font(.system(.largeTitle))
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                    .padding(20)
+            
 
             }
                 .searchable(text: $searchText)
@@ -35,7 +48,7 @@ struct ContentView: View {
     
     struct CongtentView_Previews: PreviewProvider {
         static var previews: some View {
-            ContentView()
+            MapView()
         }
     }
 }

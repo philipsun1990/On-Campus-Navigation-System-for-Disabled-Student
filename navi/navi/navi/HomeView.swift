@@ -11,7 +11,7 @@ struct HomeView: View {
     
     var body: some View {
         TabView {
-            ContentView()
+            MapView()
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
@@ -22,11 +22,7 @@ struct HomeView: View {
             
         }
         
-        ZStack{
-            Button("+") {
-                print("Sign In")
-            }
-        }
+      
         
     }
     

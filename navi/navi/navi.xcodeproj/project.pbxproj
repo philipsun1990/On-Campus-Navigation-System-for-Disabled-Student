@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		454AE11D28F4BAF40093BE42 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AE11C28F4BAF40093BE42 /* SheetView.swift */; };
 		45AA1BEF28DB76D800E8AD83 /* naviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA1BEE28DB76D800E8AD83 /* naviApp.swift */; };
-		45AA1BF128DB76D800E8AD83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA1BF028DB76D800E8AD83 /* ContentView.swift */; };
+		45AA1BF128DB76D800E8AD83 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA1BF028DB76D800E8AD83 /* MapView.swift */; };
 		45AA1BF328DB76DA00E8AD83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AA1BF228DB76DA00E8AD83 /* Assets.xcassets */; };
 		45AA1BF628DB76DA00E8AD83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AA1BF528DB76DA00E8AD83 /* Preview Assets.xcassets */; };
 		45AA1C0028DB76DA00E8AD83 /* naviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA1BFF28DB76DA00E8AD83 /* naviTests.swift */; };
@@ -36,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		454AE11C28F4BAF40093BE42 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		45AA1BEB28DB76D800E8AD83 /* navi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AA1BEE28DB76D800E8AD83 /* naviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naviApp.swift; sourceTree = "<group>"; };
-		45AA1BF028DB76D800E8AD83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45AA1BF028DB76D800E8AD83 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		45AA1BF228DB76DA00E8AD83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45AA1BF528DB76DA00E8AD83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45AA1BFB28DB76DA00E8AD83 /* naviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = naviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +102,8 @@
 			children = (
 				45AA1BEE28DB76D800E8AD83 /* naviApp.swift */,
 				45F338AA28ECD6A400CB3B65 /* HomeView.swift */,
-				45AA1BF028DB76D800E8AD83 /* ContentView.swift */,
+				45AA1BF028DB76D800E8AD83 /* MapView.swift */,
+				454AE11C28F4BAF40093BE42 /* SheetView.swift */,
 				45F338A828ECD5F500CB3B65 /* SettingView.swift */,
 				45AA1BF228DB76DA00E8AD83 /* Assets.xcassets */,
 				45AA1BF428DB76DA00E8AD83 /* Preview Content */,
@@ -263,8 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45AA1BF128DB76D800E8AD83 /* ContentView.swift in Sources */,
+				45AA1BF128DB76D800E8AD83 /* MapView.swift in Sources */,
 				45F338AB28ECD6A400CB3B65 /* HomeView.swift in Sources */,
+				454AE11D28F4BAF40093BE42 /* SheetView.swift in Sources */,
 				45AA1BEF28DB76D800E8AD83 /* naviApp.swift in Sources */,
 				45F338A928ECD5F500CB3B65 /* SettingView.swift in Sources */,
 			);
