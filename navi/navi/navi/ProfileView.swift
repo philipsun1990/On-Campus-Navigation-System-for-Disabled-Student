@@ -7,35 +7,68 @@
 
 import SwiftUI
 
-struct ProfileView: View {
+struct LocationView: View {
+    let roadname: String
+
     var body: some View {
-        HStack()
-        {
-            VStack()
-            {
-                Text("Profile")
-                    .frame(width: 100, height: 50, alignment: .topLeading)
-                    .padding()
-                    .font(.system(size: 33).bold())
+        Text("\(roadname)")
+            .font(.largeTitle)
+    }
+}
+
+struct ProfileView: View {
+    let roads = [
+        "30th ST",
+        "18th ST",
+        "Colorado Ave",
+        ]
+    var body: some View {
+        NavigationView {
+            VStack (alignment: .leading){
                 HStack()
                 {
-                    Image("business_woman_2")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
+                    VStack()
+                    {
+                        Text("Profile")
+                            .frame(width: 120, height: 50, alignment: .topLeading)
+                            .padding()
+                            .font(.system(size: 35).bold())
+                        HStack()
+                        {
+                            Image("business_woman_2")
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 100, height: 100, alignment: .topLeading)
+                                .clipShape(Circle())
+                                .clipped()
+
+                        }
                         .frame(width: 100, height: 100, alignment: .topLeading)
-                    //                .cornerRadius(200)
-                        .clipShape(Circle())
-                        .clipped()
-                    
+
+                    }
+                    Spacer()
                 }
-                .frame(width: 100, height: 100, alignment: .topLeading)
-//                .background(Color.orange)
-                
+                Spacer()
+                Spacer()
+
+//                Divider().padding(.top, 40)
+                Text("Report History")
+//                    .font(.largeTitle)
+//                    .multilineTextAlignment(.leading)
+                    .frame(width: 250, height: 20, alignment: .topLeading)
+                    .padding()
+                    .font(.system(size: 35).bold())
+                NavigationView {
+                    List(roads, id: \.self) { road in
+                        NavigationLink(destination: LocationView(roadname: road)) {
+                            Text(road)
+                        }
+                    }
+                }
+
             }
-//            .background(Color.blue)
-            .padding(.bottom, 500)
+            //.padding(.leading, -180)
         }
-        .padding(.leading, -180)
     }
 }
 

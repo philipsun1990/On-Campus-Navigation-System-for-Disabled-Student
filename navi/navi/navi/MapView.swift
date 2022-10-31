@@ -10,8 +10,9 @@ import SwiftUI
 
 struct MapView: View {
     
-     @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 40.0150, longitude: -105.2705),
-                                                   span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+     @State private var region = MKCoordinateRegion(
+        center: CLLocationCoordinate2D(latitude: 40.0150, longitude: -105.2705),
+        span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
     
      @State private var searchText = ""
      @State private var showingSheet = false
