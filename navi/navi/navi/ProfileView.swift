@@ -67,7 +67,6 @@ struct ProfileView: View {
                 }
 
             }
-            //.padding(.leading, -180)
         }
     }
 }
