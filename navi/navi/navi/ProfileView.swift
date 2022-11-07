@@ -58,12 +58,12 @@ struct ProfileView: View {
                     .frame(width: 250, height: 20, alignment: .topLeading)
                     .padding()
                     .font(.system(size: 35).bold())
-                NavigationView {
+//                NavigationView {
                     List(roads, id: \.self) { road in
                         NavigationLink(destination: LocationView(roadname: road)) {
                             Text(road)
                         }
-                    }
+                    
                 }
 
             }
