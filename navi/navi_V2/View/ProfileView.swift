@@ -11,7 +11,7 @@ import SwiftUI
 
 struct LocationView: View {
     let roadname: String
-
+    
     var body: some View {
         Text("\(roadname)")
             .font(.largeTitle)
@@ -23,7 +23,7 @@ struct ProfileView: View {
         "30th ST",
         "18th ST",
         "Colorado Ave",
-        ]
+    ]
     var body: some View {
         NavigationView {
             VStack (alignment: .leading){
@@ -43,31 +43,31 @@ struct ProfileView: View {
                                 .frame(width: 100, height: 100, alignment: .topLeading)
                                 .clipShape(Circle())
                                 .clipped()
-
+                            
                         }
                         .frame(width: 100, height: 100, alignment: .topLeading)
-
+                        
                     }
                     Spacer()
                 }
                 Spacer()
                 Spacer()
-
-//                Divider().padding(.top, 40)
+                
+                //                Divider().padding(.top, 40)
                 Text("Report History")
-//                    .font(.largeTitle)
-//                    .multilineTextAlignment(.leading)
+                //                    .font(.largeTitle)
+                //                    .multilineTextAlignment(.leading)
                     .frame(width: 250, height: 20, alignment: .topLeading)
                     .padding()
                     .font(.system(size: 35).bold())
-//                NavigationView {
-                    List(roads, id: \.self) { road in
-                        NavigationLink(destination: LocationView(roadname: road)) {
-                            Text(road)
-                        }
+                //                NavigationView {
+                List(roads, id: \.self) { road in
+                    NavigationLink(destination: LocationView(roadname: road)) {
+                        Text(road)
+                    }
                     
                 }
-
+                
             }
         }
     }

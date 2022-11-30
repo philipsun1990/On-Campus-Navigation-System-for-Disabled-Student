@@ -20,6 +20,7 @@
 		456ED4962936C437002459FA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456ED4952936C437002459FA /* Place.swift */; };
 		456ED4982936F9A8002459FA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456ED4972936F9A8002459FA /* ProfileView.swift */; };
 		456ED49A2936FA5C002459FA /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456ED4992936FA5C002459FA /* SheetView.swift */; };
+		45C87649293804C80048E860 /* MapContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C87648293804C80048E860 /* MapContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		456ED4952936C437002459FA /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		456ED4972936F9A8002459FA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		456ED4992936FA5C002459FA /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		45C87648293804C80048E860 /* MapContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				456ED48E2936AFDF002459FA /* Home.swift */,
+				45C87648293804C80048E860 /* MapContainerView.swift */,
 				456ED4902936B01E002459FA /* MapView.swift */,
 				456ED4972936F9A8002459FA /* ProfileView.swift */,
 				456ED4992936FA5C002459FA /* SheetView.swift */,
@@ -305,6 +308,7 @@
 				456ED4962936C437002459FA /* Place.swift in Sources */,
 				456ED48F2936AFDF002459FA /* Home.swift in Sources */,
 				456ED4982936F9A8002459FA /* ProfileView.swift in Sources */,
+				45C87649293804C80048E860 /* MapContainerView.swift in Sources */,
 				456ED49A2936FA5C002459FA /* SheetView.swift in Sources */,
 				456ED4632936AF41002459FA /* navi_V2App.swift in Sources */,
 			);
