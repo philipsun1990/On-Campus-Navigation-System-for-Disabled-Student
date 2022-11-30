@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:navi/navi_V2/navi_V2.xcodeproj/project.pbxproj
 		456ED4632936AF41002459FA /* navi_V2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456ED4622936AF41002459FA /* navi_V2App.swift */; };
 		456ED4652936AF41002459FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456ED4642936AF41002459FA /* ContentView.swift */; };
@@ -26,6 +27,8 @@
 =======
 =======
 >>>>>>> parent of c1719a3 (New Version)
+=======
+>>>>>>> parent of c1719a3 (New Version)
 		454AE11D28F4BAF40093BE42 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AE11C28F4BAF40093BE42 /* SheetView.swift */; };
 		45AA1BEF28DB76D800E8AD83 /* naviApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA1BEE28DB76D800E8AD83 /* naviApp.swift */; };
 		45AA1BF128DB76D800E8AD83 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA1BF028DB76D800E8AD83 /* MapView.swift */; };
@@ -37,7 +40,10 @@
 		45F338A928ECD5F500CB3B65 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F338A828ECD5F500CB3B65 /* ProfileView.swift */; };
 		45F338AB28ECD6A400CB3B65 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F338AA28ECD6A400CB3B65 /* HomeView.swift */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of c1719a3 (New Version):navi/navi/navi.xcodeproj/project.pbxproj
+=======
+>>>>>>> parent of c1719a3 (New Version)
 =======
 >>>>>>> parent of c1719a3 (New Version)
 /* End PBXBuildFile section */
@@ -61,6 +67,7 @@
 
 /* Begin PBXFileReference section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:navi/navi_V2/navi_V2.xcodeproj/project.pbxproj
 		456ED45F2936AF41002459FA /* navi_V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navi_V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		456ED4622936AF41002459FA /* navi_V2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navi_V2App.swift; sourceTree = "<group>"; };
@@ -82,6 +89,8 @@
 =======
 =======
 >>>>>>> parent of c1719a3 (New Version)
+=======
+>>>>>>> parent of c1719a3 (New Version)
 		454AE11C28F4BAF40093BE42 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		45AA1BEB28DB76D800E8AD83 /* navi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AA1BEE28DB76D800E8AD83 /* naviApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naviApp.swift; sourceTree = "<group>"; };
@@ -96,7 +105,10 @@
 		45F338A828ECD5F500CB3B65 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		45F338AA28ECD6A400CB3B65 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of c1719a3 (New Version):navi/navi/navi.xcodeproj/project.pbxproj
+=======
+>>>>>>> parent of c1719a3 (New Version)
 =======
 >>>>>>> parent of c1719a3 (New Version)
 /* End PBXFileReference section */
@@ -183,6 +195,7 @@
 				45AA1C0B28DB76DA00E8AD83 /* naviUITestsLaunchTests.swift */,
 			);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:navi/navi_V2/navi_V2.xcodeproj/project.pbxproj
 			path = navi_V2UITests;
 			sourceTree = "<group>";
@@ -216,6 +229,9 @@
 =======
 			path = naviUITests;
 >>>>>>> parent of c1719a3 (New Version):navi/navi/navi.xcodeproj/project.pbxproj
+=======
+			path = naviUITests;
+>>>>>>> parent of c1719a3 (New Version)
 =======
 			path = naviUITests;
 >>>>>>> parent of c1719a3 (New Version)
@@ -352,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:navi/navi_V2/navi_V2.xcodeproj/project.pbxproj
 				456ED4652936AF41002459FA /* ContentView.swift in Sources */,
 				456ED4932936B109002459FA /* MapViewModel.swift in Sources */,
@@ -365,13 +382,18 @@
 =======
 =======
 >>>>>>> parent of c1719a3 (New Version)
+=======
+>>>>>>> parent of c1719a3 (New Version)
 				45AA1BF128DB76D800E8AD83 /* MapView.swift in Sources */,
 				45F338AB28ECD6A400CB3B65 /* HomeView.swift in Sources */,
 				454AE11D28F4BAF40093BE42 /* SheetView.swift in Sources */,
 				45AA1BEF28DB76D800E8AD83 /* naviApp.swift in Sources */,
 				45F338A928ECD5F500CB3B65 /* ProfileView.swift in Sources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of c1719a3 (New Version):navi/navi/navi.xcodeproj/project.pbxproj
+=======
+>>>>>>> parent of c1719a3 (New Version)
 =======
 >>>>>>> parent of c1719a3 (New Version)
 			);
