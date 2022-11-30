@@ -1,13 +1,13 @@
 //
-//  naviUITests.swift
-//  naviUITests
+//  navi_V2UITests.swift
+//  navi_V2UITests
 //
-//  Created by Jiaji sun on 9/21/22.
+//  Created by Jiaji sun on 11/29/22.
 //
 
 import XCTest
 
-final class naviUITests: XCTestCase {
+final class navi_V2UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
