@@ -1,11 +1,9 @@
 //
-//  ProfileView.swift
-//  navi_V2
+//  SwiftUIView.swift
+//  navi
 //
-//  Created by Jiaji sun on 11/29/22.
+//  Created by Jiaji sun on 10/4/22.
 //
-
-
 
 import SwiftUI
 

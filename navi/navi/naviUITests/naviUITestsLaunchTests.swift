@@ -1,13 +1,13 @@
 //
-//  navi_V2UITestsLaunchTests.swift
-//  navi_V2UITests
+//  naviUITestsLaunchTests.swift
+//  naviUITests
 //
-//  Created by Jiaji sun on 11/29/22.
+//  Created by Jiaji sun on 9/21/22.
 //
 
 import XCTest
 
-final class navi_V2UITestsLaunchTests: XCTestCase {
+final class naviUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

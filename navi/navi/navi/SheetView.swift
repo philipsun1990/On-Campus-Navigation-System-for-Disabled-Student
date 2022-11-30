@@ -1,8 +1,8 @@
 //
 //  SheetView.swift
-//  navi_V2
+//  navi
 //
-//  Created by Jiaji sun on 11/29/22.
+//  Created by Jiaji sun on 10/10/22.
 //
 
 import SwiftUI
