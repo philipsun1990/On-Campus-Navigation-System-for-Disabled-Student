@@ -23,7 +23,7 @@ struct Home: View {
             
             MapContainerView()
                 .tabItem {
-                    Label("Map", systemImage: "map")
+                    Label("Main", systemImage: "house")
                 }
             ProfileView()
                 .tabItem {
